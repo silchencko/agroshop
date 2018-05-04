@@ -1,0 +1,139 @@
+body{
+	margin: 0;
+	font: 18px arial, sans-serif, Times New Roman;
+}
+header{
+	background-color: #DAA520;
+	padding: 10px;
+	color: #fff;
+}
+.site_name{
+	font-size: 36px;
+	text-align: center;
+}
+nav{
+	margin: 0 auto;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	width: 50%;
+}
+.menu{
+	display: inline;
+	
+}
+.menu > a{
+	text-decoration: none;
+	color: #fff;
+	margin: 10px;
+}
+.menu a:hover{
+	border-bottom: 1px solid #fff;
+}
+.menu ul li a{
+	color: #000;
+}
+.choice{
+	width: 15%;
+	min-width: 135px;
+	margin: 10px 0 10px 10px;
+	padding: 10px;
+	background-color: #BF7A30;
+	border-radius: 5px;
+	color: #fff;
+	float: left;
+}
+.choice label{
+	display: block;
+}
+/*.selectedprice{
+	width: 80px;
+	background-color: #E0E0E0;
+	color: #000;
+	padding: 2px;
+	display: inline;
+}*/
+.slider {
+	border-radius: 5px;
+	background: #E0E0E0;
+	width: 115px;
+	height: 15px;
+	/*margin: 5px;*/
+}
+.thumb {
+width: 10px;
+height: 25px;
+border-radius: 3px;
+position: relative;
+left: 100px;
+top: -5px;
+background: #17a2b8;
+cursor: pointer;
+}
+
+
+.products{
+	width: 80%;
+	float: right;
+}
+.products .products_item{
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	border: 1px solid white;
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.products .products_item:hover{
+	border: 1px solid black;
+	border-radius: 10px;
+	/*transform: scale(1.05);*/
+}
+.products .products_item a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+
+.anchor{
+	width: 80px;
+	border-radius: 10px;
+	background-color: #DAA520;
+	opacity: 0.7;
+	padding: 5px;
+	position: fixed;
+	bottom: 50%;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+}
+.anchor a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.modal-body div img{
+	margin: 0 auto;
+}
+.modal-body.description{
+	padding: 5px;
+	text-align: center;
+}
+
+footer{
+	height: 75px;
+	background-color: #DAA520;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #fff;
+}
+.contacts{
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 100px;
+	font-size: 18px;
+}
+
+.hidden{display:none}

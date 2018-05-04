@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AgroShop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<a name="top"></a>
+	<header>
+		<div class="site_name">AgroShop</div>
+		<nav>
+			<ul>
+				<li class="menu"><a href="#">Главная</a></li>
+				<li class="menu"><a href="#">Контакты</a></li>
+				<li class="menu"><a href="#">Корзина</a></li>
+				<li class="menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Категории</a>
+					<ul class="dropdown-menu">
+						<li><a href="#" class="dropdown-item">сухофрукты</a></li>
+						<li><a href="#" class="dropdown-item">орехи</a></li>
+						<li><a href="#" class="dropdown-item">масла</a></li>
+					</ul>
+				</li>
+				<li class="menu"><a href="#">Доставка и возврат</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<aside class="choice">
+			<form action="#" method="GET">
+				<p class="choice_point"><strong>Категория</strong></p>			
+				<label>
+					<input type="checkbox" name="driedfruit">сухофрукты</label>
+				<label>
+					<input type="checkbox" name="nut">орехи</label>
+				<label>
+					<input type="checkbox" name="oil">масла</label>	
+				
+				<p class="choice_point"><strong>Цена до: </strong>
+					<span class="selectedprice"></span> 		
+					
+					<div class="slider">
+						<div class="thumb"></div>
+					</div>
+				</p>	
+				
+				<input type="button" class="btn btn-info" name="button" value="Применить">
+			</form>
+		</aside>
+		<section class="products">
+
+		</section>
+		<div class="clearfix"></div>
+		<div class="anchor"><a href="#top">Наверх</a></div>
+
+<!-- Всплывающие окна -->
+		<div class="modal fade" id="details" tabindex="-1" role="dialog" aria-labelledby="details" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+			        	<h5 class="modal-title" id="exampleModalLabel"></h5>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          		<span aria-hidden="true">&times;</span>
+			        	</button>
+			      	</div>
+			      	<div class="modal-body">
+			        	<div><img src="images/prunes.png"></div>
+			        	<div class="description">
+			        		<p><b>Цена: <b class="modalPrice"></b> грн/кг</b></p>
+							<p><b>Страна: <b class="modalCountry"></b></b></p>
+							<p class="modalDescription"></p>
+			        	</div>
+			      	</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+			        	<button type="button" class="btn btn-success">Добавить в корзину</button>
+			      	</div>
+			    </div>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+		<div class="contacts">г. Днепр, ул. 8 марта, 46<br>
+		                    +(056) 234 56 78</div>
+		<div class="socnets"></div>
+	</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
